@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Non-Metals Element Search</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Non-Metals Element Search</h1>
+        <p>Enter an element symbol to search:</p>
+        <input type="text" id="symbol" placeholder="Example: H, O, Cl">
+        <br><br>
+        <button py-click="search_element">Search</button>
+        <h3 id="result"></h3>
+        <p id="information"></p>
+    </div>
+
+
+    <script type="py" src="main.py"></script>
+</body>
+</html>
